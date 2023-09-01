@@ -29,7 +29,7 @@ function FileUpload() {
       console.log("File uploaded successfully");
       console.log("Server Response:", response.data);
     } catch (error) {
-      console.error("Error uploading file: ", error);
+      console.error("Error uploading file: ", error.response);
     }
   };
 
